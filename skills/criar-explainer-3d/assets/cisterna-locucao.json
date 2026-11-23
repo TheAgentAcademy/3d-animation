@@ -1,0 +1,82 @@
+{
+  "fala": [
+    {
+      "inicio": 0.28,
+      "fim": 3.64,
+      "texto": "Para onde vai a chuva deste telhado?"
+    },
+    {
+      "inicio": 4.1,
+      "fim": 7.74,
+      "texto": "A inclinação leva a água até a calha."
+    },
+    {
+      "inicio": 8.23,
+      "fim": 12.54,
+      "texto": "No fim da calha, um cano conduz a água para baixo."
+    },
+    {
+      "inicio": 13.24,
+      "fim": 17.58,
+      "texto": "A água entra na cisterna e o nível sobe."
+    }
+  ],
+  "legendas": [
+    {
+      "inicio": 0.28,
+      "fim": 1.36,
+      "texto": "Para onde vai a chuva"
+    },
+    {
+      "inicio": 1.36,
+      "fim": 2.86,
+      "texto": "deste telhado?",
+      "destaque": "telhado"
+    },
+    {
+      "inicio": 4.1,
+      "fim": 5.0,
+      "texto": "A inclinação",
+      "destaque": "inclinação"
+    },
+    {
+      "inicio": 5.0,
+      "fim": 6.84,
+      "texto": "leva a água até a calha.",
+      "destaque": "calha"
+    },
+    {
+      "inicio": 8.23,
+      "fim": 9.29,
+      "texto": "No fim da calha,"
+    },
+    {
+      "inicio": 9.29,
+      "fim": 10.22,
+      "texto": "um cano conduz a água",
+      "destaque": "cano"
+    },
+    {
+      "inicio": 10.22,
+      "fim": 11.74,
+      "texto": "para baixo."
+    },
+    {
+      "inicio": 13.24,
+      "fim": 14.2,
+      "texto": "A água entra"
+    },
+    {
+      "inicio": 14.2,
+      "fim": 14.98,
+      "texto": "na cisterna",
+      "destaque": "cisterna"
+    },
+    {
+      "inicio": 14.98,
+      "fim": 16.73,
+      "texto": "e o nível sobe.",
+      "destaque": "sobe"
+    }
+  ]
+}

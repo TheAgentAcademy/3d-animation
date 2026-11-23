@@ -1,0 +1,14 @@
+interface:
+  display_name: Explainer 3D em Blender
+  short_description: Crie Reels 3D com câmera, voz e legendas por palavra
+  default_prompt: Use $criar-explainer-3d para transformar meu tema em um Reel 3D
+    com câmera em perspectiva, narração brasileira e legendas por palavra.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

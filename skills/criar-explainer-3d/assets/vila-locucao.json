@@ -1,0 +1,148 @@
+{
+  "estilo_legenda": "palavra",
+  "fala": [
+    {
+      "inicio": 0.03,
+      "fim": 2.3,
+      "texto": "Uma rua inteira cabe numa mão?"
+    },
+    {
+      "inicio": 2.43,
+      "fim": 3.91,
+      "texto": "Primeiro, as moedas."
+    },
+    {
+      "inicio": 4.14,
+      "fim": 5.8,
+      "texto": "Depois, as casas."
+    },
+    {
+      "inicio": 5.94,
+      "fim": 7.82,
+      "texto": "Até a calçada vai junto."
+    },
+    {
+      "inicio": 8.01,
+      "fim": 9.72,
+      "texto": "E agora, cadê a rua?"
+    }
+  ],
+  "legendas": [
+    {
+      "inicio": 0.0,
+      "fim": 0.25,
+      "texto": "Uma"
+    },
+    {
+      "inicio": 0.25,
+      "fim": 0.375,
+      "texto": "Rua"
+    },
+    {
+      "inicio": 0.375,
+      "fim": 0.75,
+      "texto": "Inteira"
+    },
+    {
+      "inicio": 0.75,
+      "fim": 1.0,
+      "texto": "Cabe"
+    },
+    {
+      "inicio": 1.0,
+      "fim": 1.208,
+      "texto": "Numa"
+    },
+    {
+      "inicio": 1.208,
+      "fim": 1.708,
+      "texto": "Mão?",
+      "destaque": "Mão?"
+    },
+    {
+      "inicio": 2.417,
+      "fim": 3.042,
+      "texto": "Primeiro"
+    },
+    {
+      "inicio": 3.042,
+      "fim": 3.167,
+      "texto": "As"
+    },
+    {
+      "inicio": 3.167,
+      "fim": 3.917,
+      "texto": "Moedas",
+      "destaque": "Moedas"
+    },
+    {
+      "inicio": 4.125,
+      "fim": 4.75,
+      "texto": "Depois"
+    },
+    {
+      "inicio": 4.75,
+      "fim": 4.917,
+      "texto": "As"
+    },
+    {
+      "inicio": 4.917,
+      "fim": 5.667,
+      "texto": "Casas",
+      "destaque": "Casas"
+    },
+    {
+      "inicio": 5.958,
+      "fim": 6.167,
+      "texto": "Até"
+    },
+    {
+      "inicio": 6.167,
+      "fim": 6.25,
+      "texto": "A"
+    },
+    {
+      "inicio": 6.25,
+      "fim": 6.625,
+      "texto": "Calçada",
+      "destaque": "Calçada"
+    },
+    {
+      "inicio": 6.625,
+      "fim": 6.792,
+      "texto": "Vai"
+    },
+    {
+      "inicio": 6.792,
+      "fim": 7.375,
+      "texto": "Junto"
+    },
+    {
+      "inicio": 8.0,
+      "fim": 8.125,
+      "texto": "E"
+    },
+    {
+      "inicio": 8.125,
+      "fim": 8.708,
+      "texto": "Agora"
+    },
+    {
+      "inicio": 8.708,
+      "fim": 8.958,
+      "texto": "Cadê"
+    },
+    {
+      "inicio": 8.958,
+      "fim": 9.083,
+      "texto": "A"
+    },
+    {
+      "inicio": 9.083,
+      "fim": 9.583,
+      "texto": "Rua?",
+      "destaque": "Rua?"
+    }
+  ],
+  "altura_legenda": 0.74
+}

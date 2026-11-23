@@ -1,0 +1,12 @@
+Permissão de uso e redistribuição — criar-explainer-3d
+
+Qualquer pessoa pode usar, copiar, modificar, publicar, distribuir e vender cópias dos scripts, instruções, cenas e roteiros originais deste pacote, bem como usar comercialmente os vídeos que produzir com eles. Esta permissão é gratuita. O material é fornecido como está, sem garantia.
+
+Os links identificam referências externas. Cada ferramenta, modelo, voz, gravação ou outro recurso externo mantém sua própria licença.
+
+
+Recursos externos incluídos na demonstração da vila
+
+• ceu-kloofendal.jpg deriva de Kloofendal 48d Partly Cloudy (Pure Sky), de Greg Zaal e Jarod Guest, Poly Haven. Disponibilizado sob CC0. https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky
+• Mão direita articulada da Innerscene, derivada da base MakeHuman/MPFB, distribuída sob CC0. https://www.innerscene.com/tools/library/3d-parts/posable-anatomical-right-hand-f6098b4f
+• vila-legenda.ttf contém Open Sans ExtraBold. A licença e os créditos acompanham a fonte em assets/vila-fonte-LICENSE.txt.

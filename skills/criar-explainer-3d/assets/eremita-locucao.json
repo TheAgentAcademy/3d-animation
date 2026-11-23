@@ -1,0 +1,71 @@
+{
+  "fala": [
+    {
+      "inicio": 0.1,
+      "fim": 3.9,
+      "texto": "O eremita cresceu. E a concha apertou."
+    },
+    {
+      "inicio": 4.05,
+      "fim": 7.9,
+      "texto": "Ele encontra outra e testa a abertura."
+    },
+    {
+      "inicio": 8.0,
+      "fim": 11.88,
+      "texto": "Se couber, ele troca de concha."
+    },
+    {
+      "inicio": 12.03,
+      "fim": 15.9,
+      "texto": "A antiga fica na areia. E ele segue viagem."
+    }
+  ],
+  "legendas": [
+    {
+      "inicio": 0.1,
+      "fim": 1.74,
+      "texto": "O eremita cresceu.",
+      "destaque": "cresceu"
+    },
+    {
+      "inicio": 1.74,
+      "fim": 3.51,
+      "texto": "E a concha apertou.",
+      "destaque": "concha"
+    },
+    {
+      "inicio": 4.05,
+      "fim": 5.03,
+      "texto": "Ele encontra outra"
+    },
+    {
+      "inicio": 5.03,
+      "fim": 6.81,
+      "texto": "e testa a abertura.",
+      "destaque": "abertura"
+    },
+    {
+      "inicio": 8.0,
+      "fim": 8.94,
+      "texto": "Se couber,"
+    },
+    {
+      "inicio": 8.94,
+      "fim": 10.75,
+      "texto": "ele troca de concha.",
+      "destaque": "troca"
+    },
+    {
+      "inicio": 12.03,
+      "fim": 13.99,
+      "texto": "A antiga fica na areia."
+    },
+    {
+      "inicio": 13.99,
+      "fim": 15.84,
+      "texto": "E ele segue viagem.",
+      "destaque": "viagem"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+CENAS DA ALDEIA — CRÉDITOS E USO
+
+Você pode usar, adaptar e redistribuir gratuitamente os modelos de aldeões e 
+aves, as cenas e os scripts originais deste pacote, inclusive em projetos
+comerciais. O material é fornecido no estado em que se encontra, sem garantia.
+
+A mão articulada usada no plano vila-mao é da Innerscene, derivada da base
+MakeHuman/MPFB, disponibilizada sob CC0.
+https://www.innerscene.com/tools/library/3d-parts/posable-anatomical-right-hand-f6098b4f
+
+Os céus empacotados, as variantes diurna/noturna e a paleta dos cenários derivam de
+Kloofendal 48d Partly Cloudy (Pure Sky), de Greg Zaal e Jarod Guest, Poly Haven,
+disponibilizado sob CC0.
+https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Grave sua própria locução e escolha a trilha para a versão que publicar.

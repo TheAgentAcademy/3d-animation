@@ -1,0 +1,93 @@
+{
+  "legendas": [
+    {
+      "inicio": 0.15,
+      "fim": 1.71,
+      "texto": "Duas filas.",
+      "destaque": "Duas"
+    },
+    {
+      "inicio": 1.71,
+      "fim": 3.78,
+      "texto": "Você entrou na que travou.",
+      "destaque": "travou"
+    },
+    {
+      "inicio": 4.05,
+      "fim": 6.08,
+      "texto": "O guichê B ficou livre.",
+      "destaque": "livre"
+    },
+    {
+      "inicio": 6.08,
+      "fim": 7.85,
+      "texto": "E você ainda espera."
+    },
+    {
+      "inicio": 8.08,
+      "fim": 9.74,
+      "texto": "Agora, junte as duas filas"
+    },
+    {
+      "inicio": 9.74,
+      "fim": 11.02,
+      "texto": "numa só.",
+      "destaque": "numa só"
+    },
+    {
+      "inicio": 12.08,
+      "fim": 13.41,
+      "texto": "Liberou o B?",
+      "destaque": "B"
+    },
+    {
+      "inicio": 13.41,
+      "fim": 15.61,
+      "texto": "Vai a primeira pessoa da fila."
+    },
+    {
+      "inicio": 16.04,
+      "fim": 17.28,
+      "texto": "Liberou o A?",
+      "destaque": "A"
+    },
+    {
+      "inicio": 17.28,
+      "fim": 18.46,
+      "texto": "Vai a próxima."
+    },
+    {
+      "inicio": 18.46,
+      "fim": 19.94,
+      "texto": "Menos guichê parado.",
+      "destaque": "parado"
+    }
+  ],
+  "fala": [
+    {
+      "inicio": 0.15,
+      "fim": 3.78,
+      "texto": "Duas filas. Você entrou na que travou."
+    },
+    {
+      "inicio": 4.05,
+      "fim": 7.85,
+      "texto": "O guichê B ficou livre. E você ainda espera."
+    },
+    {
+      "inicio": 8.08,
+      "fim": 11.82,
+      "texto": "Agora, junte as duas filas numa só."
+    },
+    {
+      "inicio": 12.08,
+      "fim": 15.84,
+      "texto": "Liberou o B? Vai a primeira pessoa da fila."
+    },
+    {
+      "inicio": 16.04,
+      "fim": 19.94,
+      "texto": "Liberou o A? Vai a próxima. Menos guichê parado."
+    }
+  ]
+}

@@ -1,0 +1,750 @@
+{
+  "title": "A fila que se divide no fim",
+  "duration": 20,
+  "fps": 12,
+  "width": 432,
+  "height": 768,
+  "samples": 6,
+  "stage": "hall",
+  "entities": [
+    {
+      "id": "Guichê A",
+      "type": "counter",
+      "xyz": [-1.58, 1.3, 0],
+      "color": "teal",
+      "label": "A"
+    },
+    {
+      "id": "Atendente A",
+      "type": "person",
+      "xyz": [-1.73, 1.74, 0.32],
+      "color": "teal",
+      "skin": "skin3",
+      "style": "curls",
+      "accent": "white",
+      "gesture": [
+        [0, 0],
+        [16, 0],
+        [17, -72],
+        [18, -32],
+        [19, 0]
+      ]
+    },
+    {
+      "id": "Guichê B",
+      "type": "counter",
+      "xyz": [1.5, 1.3, 0],
+      "color": "blue",
+      "label": "B"
+    },
+    {
+      "id": "Atendente B",
+      "type": "person",
+      "xyz": [1.35, 1.74, 0.32],
+      "color": "blue",
+      "skin": "skin2",
+      "style": "crop",
+      "accent": "white",
+      "gesture": [
+        [0, 0],
+        [12, 0],
+        [13, -72],
+        [14, -32],
+        [15, 0]
+      ]
+    },
+    {
+      "id": "Cliente em A",
+      "type": "person",
+      "xyz": [-1.58, 0.56, 0],
+      "yaw": 180,
+      "color": "gold",
+      "skin": "skin4",
+      "style": "curls",
+      "accent": "coral",
+      "keys": [
+        {
+          "at": 14.9,
+          "xyz": [-1.58, 0.56, 0],
+          "yaw": 180
+        },
+        {
+          "at": 15.35,
+          "xyz": [-1.83, 0.48, 0],
+          "yaw": 265
+        },
+        {
+          "at": 16.42,
+          "xyz": [-4.0, 0.08, 0],
+          "yaw": 257
+        },
+        {
+          "at": 17.4,
+          "xyz": [-5.65, -0.12, 0],
+          "yaw": 256
+        }
+      ],
+      "walk": [
+        [14.9, 17.4]
+      ],
+      "lean": [
+        [0, 0],
+        [2, -7],
+        [3, 0],
+        [7, -5],
+        [9, 0]
+      ]
+    },
+    {
+      "id": "Cliente em B",
+      "type": "person",
+      "xyz": [1.5, 0.56, 0],
+      "yaw": 180,
+      "color": "ivory",
+      "skin": "skin3",
+      "style": "crop",
+      "accent": "teal",
+      "pants": "teal",
+      "keys": [
+        {
+          "at": 3.3,
+          "xyz": [1.5, 0.56, 0],
+          "yaw": 180
+        },
+        {
+          "at": 3.8,
+          "xyz": [1.75, 0.49, 0],
+          "yaw": 102
+        },
+        {
+          "at": 4.9,
+          "xyz": [3.64, 0.14, 0],
+          "yaw": 85
+        },
+        {
+          "at": 5.8,
+          "xyz": [5.88, -0.2, 0],
+          "yaw": 80
+        }
+      ],
+      "walk": [
+        [3.3, 5.8]
+      ]
+    },
+    {
+      "id": "Primeira / mochila coral",
+      "type": "person",
+      "xyz": [-1.55, -0.4, 0],
+      "color": "coral",
+      "skin": "skin2",
+      "style": "bun",
+      "bag": true,
+      "accent": "ivory",
+      "yaw": 176,
+      "keys": [
+        {
+          "at": 8.15,
+          "xyz": [-1.55, -0.4, 0],
+          "yaw": 176
+        },
+        {
+          "at": 8.55,
+          "xyz": [-1.34, -0.53, 0],
+          "yaw": 87
+        },
+        {
+          "at": 9.82,
+          "xyz": [-0.06, -0.66, 0],
+          "yaw": 90
+        },
+        {
+          "at": 10.4,
+          "xyz": [0, -0.67, 0],
+          "yaw": 178
+        },
+        {
+          "at": 12,
+          "xyz": [0, -0.67, 0],
+          "yaw": 178
+        },
+        {
+          "at": 12.4,
+          "xyz": [0.18, -0.57, 0],
+          "yaw": 131
+        },
+        {
+          "at": 13.77,
+          "xyz": [1.4, 0.18, 0],
+          "yaw": 134
+        },
+        {
+          "at": 14.25,
+          "xyz": [1.5, 0.55, 0],
+          "yaw": 180
+        }
+      ],
+      "walk": [
+        [8.15, 10.4],
+        [12, 14.25]
+      ]
+    },
+    {
+      "id": "Segunda / boné mostarda",
+      "type": "person",
+      "xyz": [-1.55, -1.54, 0],
+      "color": "blue",
+      "skin": "skin3",
+      "style": "cap",
+      "accent": "gold",
+      "pants": "cocoa",
+      "yaw": 178,
+      "keys": [
+        {
+          "at": 8.45,
+          "xyz": [-1.55, -1.54, 0],
+          "yaw": 178
+        },
+        {
+          "at": 8.81,
+          "xyz": [-1.36, -1.59, 0],
+          "yaw": 82
+        },
+        {
+          "at": 10.17,
+          "xyz": [-0.09, -1.7, 0],
+          "yaw": 87
+        },
+        {
+          "at": 10.68,
+          "xyz": [0, -1.73, 0],
+          "yaw": 178
+        },
+        {
+          "at": 12.98,
+          "xyz": [0, -1.73, 0],
+          "yaw": 178
+        },
+        {
+          "at": 14.06,
+          "xyz": [0, -0.67, 0],
+          "yaw": 178
+        },
+        {
+          "at": 16.4,
+          "xyz": [0, -0.67, 0],
+          "yaw": 178
+        },
+        {
+          "at": 16.83,
+          "xyz": [-0.28, -0.49, 0],
+          "yaw": 233
+        },
+        {
+          "at": 18.08,
+          "xyz": [-1.46, 0.21, 0],
+          "yaw": 234
+        },
+        {
+          "at": 18.63,
+          "xyz": [-1.57, 0.55, 0],
+          "yaw": 180
+        }
+      ],
+      "walk": [
+        [8.45, 10.68],
+        [12.98, 14.06],
+        [16.4, 18.63]
+      ]
+    },
+    {
+      "id": "Terceira / jaqueta verde",
+      "type": "person",
+      "xyz": [-1.55, -2.61, 0],
+      "color": "green",
+      "skin": "skin4",
+      "style": "curls",
+      "accent": "mint",
+      "bag": true,
+      "pants": "slate",
+      "yaw": 178,
+      "keys": [
+        {
+          "at": 8.75,
+          "xyz": [-1.55, -2.61, 0],
+          "yaw": 178
+        },
+        {
+          "at": 9.12,
+          "xyz": [-1.32, -2.65, 0],
+          "yaw": 87
+        },
+        {
+          "at": 10.59,
+          "xyz": [-0.09, -2.8, 0],
+          "yaw": 89
+        },
+        {
+          "at": 11.08,
+          "xyz": [0, -2.78, 0],
+          "yaw": 178
+        },
+        {
+          "at": 13.18,
+          "xyz": [0, -2.78, 0],
+          "yaw": 178
+        },
+        {
+          "at": 14.38,
+          "xyz": [0, -1.73, 0],
+          "yaw": 178
+        },
+        {
+          "at": 17.22,
+          "xyz": [0, -1.73, 0],
+          "yaw": 178
+        },
+        {
+          "at": 18.52,
+          "xyz": [0, -0.67, 0],
+          "yaw": 178
+        }
+      ],
+      "walk": [
+        [8.75, 11.08],
+        [13.18, 14.38],
+        [17.22, 18.52]
+      ]
+    },
+    {
+      "id": "Palmeira oeste",
+      "type": "plant",
+      "xyz": [-3.65, 2.78, 0],
+      "scale": 1.2
+    },
+    {
+      "id": "Palmeira leste",
+      "type": "plant",
+      "xyz": [3.62, 2.84, 0],
+      "scale": 1.35
+    },
+    {
+      "id": "Marca -1.55 0",
+      "type": "disc",
+      "xyz": [-1.55, -0.4, 0.006],
+      "radius": 0.26,
+      "color": "ivory",
+      "scale": 1,
+      "keys": [
+        {
+          "at": 8.0,
+          "scale": 1
+        },
+        {
+          "at": 8.8,
+          "scale": 0.001
+        }
+      ]
+    },
+    {
+      "id": "Marca 1.5 0",
+      "type": "disc",
+      "xyz": [1.5, -0.4, 0.006],
+      "radius": 0.26,
+      "color": "ivory",
+      "scale": 1,
+      "keys": [
+        {
+          "at": 8.0,
+          "scale": 1
+        },
+        {
+          "at": 8.8,
+          "scale": 0.001
+        }
+      ]
+    },
+    {
+      "id": "Marca 0 0",
+      "type": "disc",
+      "xyz": [0, -0.4, 0.006],
+      "radius": 0.26,
+      "color": "gold",
+      "scale": 0.001,
+      "keys": [
+        {
+          "at": 8.0,
+          "scale": 0.001
+        },
+        {
+          "at": 8.8,
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "id": "Marca -1.55 1",
+      "type": "disc",
+      "xyz": [-1.55, -1.51, 0.006],
+      "radius": 0.26,
+      "color": "ivory",
+      "scale": 1,
+      "keys": [
+        {
+          "at": 8.11,
+          "scale": 1
+        },
+        {
+          "at": 8.92,
+          "scale": 0.001
+        }
+      ]
+    },
+    {
+      "id": "Marca 1.5 1",
+      "type": "disc",
+      "xyz": [1.5, -1.51, 0.006],
+      "radius": 0.26,
+      "color": "ivory",
+      "scale": 1,
+      "keys": [
+        {
+          "at": 8.11,
+          "scale": 1
+        },
+        {
+          "at": 8.92,
+          "scale": 0.001
+        }
+      ]
+    },
+    {
+      "id": "Marca 0 1",
+      "type": "disc",
+      "xyz": [0, -1.51, 0.006],
+      "radius": 0.26,
+      "color": "gold",
+      "scale": 0.001,
+      "keys": [
+        {
+          "at": 8.11,
+          "scale": 0.001
+        },
+        {
+          "at": 8.92,
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "id": "Marca -1.55 2",
+      "type": "disc",
+      "xyz": [-1.55, -2.62, 0.006],
+      "radius": 0.26,
+      "color": "ivory",
+      "scale": 1,
+      "keys": [
+        {
+          "at": 8.22,
+          "scale": 1
+        },
+        {
+          "at": 9.040000000000001,
+          "scale": 0.001
+        }
+      ]
+    },
+    {
+      "id": "Marca 1.5 2",
+      "type": "disc",
+      "xyz": [1.5, -2.62, 0.006],
+      "radius": 0.26,
+      "color": "ivory",
+      "scale": 1,
+      "keys": [
+        {
+          "at": 8.22,
+          "scale": 1
+        },
+        {
+          "at": 9.040000000000001,
+          "scale": 0.001
+        }
+      ]
+    },
+    {
+      "id": "Marca 0 2",
+      "type": "disc",
+      "xyz": [0, -2.62, 0.006],
+      "radius": 0.26,
+      "color": "gold",
+      "scale": 0.001,
+      "keys": [
+        {
+          "at": 8.22,
+          "scale": 0.001
+        },
+        {
+          "at": 9.040000000000001,
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "id": "Rota 1 0",
+      "type": "disc",
+      "xyz": [0.24, -0.51, 0.018],
+      "radius": 0.08,
+      "color": "blue",
+      "scale": 0.001,
+      "keys": [
+        {
+          "at": 12.0,
+          "scale": 0.001
+        },
+        {
+          "at": 12.24,
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "id": "Rota 1 1",
+      "type": "disc",
+      "xyz": [0.5, -0.34, 0.018],
+      "radius": 0.08,
+      "color": "blue",
+      "scale": 0.001,
+      "keys": [
+        {
+          "at": 12.11,
+          "scale": 0.001
+        },
+        {
+          "at": 12.35,
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "id": "Rota 1 2",
+      "type": "disc",
+      "xyz": [0.76, -0.18, 0.018],
+      "radius": 0.08,
+      "color": "blue",
+      "scale": 0.001,
+      "keys": [
+        {
+          "at": 12.22,
+          "scale": 0.001
+        },
+        {
+          "at": 12.46,
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "id": "Rota 1 3",
+      "type": "disc",
+      "xyz": [1.02, 0.0, 0.018],
+      "radius": 0.08,
+      "color": "blue",
+      "scale": 0.001,
+      "keys": [
+        {
+          "at": 12.33,
+          "scale": 0.001
+        },
+        {
+          "at": 12.57,
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "id": "Rota 1 4",
+      "type": "disc",
+      "xyz": [1.28, 0.17, 0.018],
+      "radius": 0.08,
+      "color": "blue",
+      "scale": 0.001,
+      "keys": [
+        {
+          "at": 12.44,
+          "scale": 0.001
+        },
+        {
+          "at": 12.68,
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "id": "Rota -1 0",
+      "type": "disc",
+      "xyz": [-0.24, -0.51, 0.018],
+      "radius": 0.08,
+      "color": "teal",
+      "scale": 0.001,
+      "keys": [
+        {
+          "at": 16.4,
+          "scale": 0.001
+        },
+        {
+          "at": 16.639999999999997,
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "id": "Rota -1 1",
+      "type": "disc",
+      "xyz": [-0.5, -0.34, 0.018],
+      "radius": 0.08,
+      "color": "teal",
+      "scale": 0.001,
+      "keys": [
+        {
+          "at": 16.509999999999998,
+          "scale": 0.001
+        },
+        {
+          "at": 16.749999999999996,
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "id": "Rota -1 2",
+      "type": "disc",
+      "xyz": [-0.76, -0.18, 0.018],
+      "radius": 0.08,
+      "color": "teal",
+      "scale": 0.001,
+      "keys": [
+        {
+          "at": 16.619999999999997,
+          "scale": 0.001
+        },
+        {
+          "at": 16.859999999999996,
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "id": "Rota -1 3",
+      "type": "disc",
+      "xyz": [-1.02, 0.0, 0.018],
+      "radius": 0.08,
+      "color": "teal",
+      "scale": 0.001,
+      "keys": [
+        {
+          "at": 16.729999999999997,
+          "scale": 0.001
+        },
+        {
+          "at": 16.969999999999995,
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "id": "Rota -1 4",
+      "type": "disc",
+      "xyz": [-1.28, 0.17, 0.018],
+      "radius": 0.08,
+      "color": "teal",
+      "scale": 0.001,
+      "keys": [
+        {
+          "at": 16.84,
+          "scale": 0.001
+        },
+        {
+          "at": 17.08,
+          "scale": 1
+        }
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "name": "Duas filas",
+      "at": 0,
+      "eye": [3.8, -10.9, 6.9],
+      "target": [0, 0.29, 1.02],
+      "scale": 11.0,
+      "keys": [
+        {
+          "at": 3.95,
+          "eye": [3.5, -10.3, 6.45],
+          "target": [0, 0.22, 1.02],
+          "scale": 10.55
+        }
+      ]
+    },
+    {
+      "name": "Um guichê livre",
+      "at": 4,
+      "eye": [4.35, -9, 4.6],
+      "target": [0.65, 0.69, 1.19],
+      "scale": 8.9,
+      "keys": [
+        {
+          "at": 7.95,
+          "eye": [4.5, -9, 4.5],
+          "target": [0.62, 0.68, 1.18],
+          "scale": 8.6
+        }
+      ]
+    },
+    {
+      "name": "Reagrupar",
+      "at": 8,
+      "eye": [2.3, -11, 8.1],
+      "target": [0, -0.13, 0.95],
+      "scale": 10.6,
+      "keys": [
+        {
+          "at": 11.95,
+          "eye": [2.05, -10.3, 8.35],
+          "target": [0, -0.16, 0.95],
+          "scale": 10.2
+        }
+      ]
+    },
+    {
+      "name": "Próxima pessoa",
+      "at": 12,
+      "eye": [3.45, -10.1, 5.6],
+      "target": [0.26, 0.12, 0.99],
+      "scale": 9.65,
+      "keys": [
+        {
+          "at": 15.95,
+          "eye": [3.38, -9.8, 5.22],
+          "target": [0.37, 0.36, 1.06],
+          "scale": 9.0
+        }
+      ]
+    },
+    {
+      "name": "Distribuir",
+      "at": 16,
+      "eye": [1.75, -10.2, 6.35],
+      "target": [-0.12, 0.19, 1],
+      "scale": 10.05,
+      "keys": [
+        {
+          "at": 19.95,
+          "eye": [1.98, -10.6, 6.5],
+          "target": [0, 0.25, 1.04],
+          "scale": 10.4
+        }
+      ]
+    }
+  ]
+}

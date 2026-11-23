@@ -1,0 +1,8 @@
+# Saídas locais do Blender e do Python
+/quadros/
+/cenas-geradas/
+/cenas-novas/
+*.blend[0-9]*
+__pycache__/
+*.py[cod]
+.DS_Store
